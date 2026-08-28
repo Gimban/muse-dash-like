@@ -4,11 +4,13 @@
 [ext_resource type="PackedScene" uid="uid://dwmyhnuiv14qr" path="res://Note.tscn" id="2_1bvp3"]
 [ext_resource type="Script" uid="uid://ddon07hbv7yqa" path="res://scripts/RhythmSync.gd" id="2_h2yge"]
 [ext_resource type="AudioStream" uid="uid://dafm7cwhvt7hj" path="res://audios/鼓動のリズム.mp3" id="4_1bvp3"]
+[ext_resource type="AudioStream" uid="uid://deu3hcveinus5" path="res://hit_sounds/hitsound_000.wav" id="5_lquwl"]
 
-[node name="Main" type="Node2D" unique_id=136697086]
+[node name="Main" type="Node2D" unique_id=136697086 node_paths=PackedStringArray("hit_sound_player")]
 script = ExtResource("1_0xm2m")
 note_scene = ExtResource("2_1bvp3")
 chart_file_path = "res://charts/鼓動のリズム_chart.json"
+hit_sound_player = NodePath("HitSoundPlayer")
 
 [node name="RhythmSync" type="Node" parent="." unique_id=1303398042 node_paths=PackedStringArray("audio_player")]
 script = ExtResource("2_h2yge")
@@ -16,4 +18,8 @@ audio_player = NodePath("../AudioStreamPlayer")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=357485318]
 stream = ExtResource("4_1bvp3")
+volume_db = -10.0
+
+[node name="HitSoundPlayer" type="AudioStreamPlayer" parent="." unique_id=17135488]
+stream = ExtResource("5_lquwl")
 volume_db = -10.0
