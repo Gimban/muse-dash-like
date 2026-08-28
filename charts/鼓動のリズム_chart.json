@@ -1,0 +1,2416 @@
+{
+    "bpm": 130.8,
+    "offset": 0.715,
+    "notes": [
+        {
+            "beat": 0.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 2.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 4.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 6.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 8.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 10.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 12.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 14.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 16.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 17.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 18.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 19.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 20.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 20.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 21.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 22.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 22.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 24.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 24.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 25.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 25.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 26.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 27.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 28.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 29.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 30.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 30.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 32.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 34.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 36.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 37.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 38.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 38.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 40.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 40.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 42.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 43.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 44.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 45.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 46.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 46.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 48.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 48.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 50.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 51.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 52.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 53.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 54.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 54.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 56.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 57.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 58.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 58.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 60.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 62.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 64.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 65.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 66.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 67.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 68.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 68.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 69.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 70.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 71.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 72.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 72.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 73.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 74.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 75.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 76.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 77.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 78.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 78.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 80.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 81.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 82.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 82.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 84.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 84.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 85.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 85.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 86.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 87.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 88.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 88.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 90.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 91.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 92.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 92.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 93.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 94.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 95.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 96.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 96.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 98.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 99.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 100.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 101.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 102.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 103.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 104.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 105.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 106.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 107.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 108.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 108.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 110.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 111.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 112.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 113.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 114.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 114.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 116.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 116.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 117.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 118.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 119.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 120.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 120.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 121.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 121.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 122.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 123.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 124.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 125.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 126.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 126.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 128.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 128.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 130.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 131.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 132.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 132.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 133.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 133.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 134.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 135.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 136.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 136.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 137.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 138.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 139.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 140.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 140.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 141.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 142.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 142.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 144.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 144.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 145.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 145.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 146.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 147.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 148.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 148.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 149.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 150.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 150.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 152.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 152.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 153.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 154.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 154.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 156.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 156.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 157.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 158.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 159.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 160.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 160.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 161.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 162.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 163.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 164.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 164.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 165.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 165.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 166.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 167.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 168.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 168.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 169.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 170.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 171.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 172.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 172.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 173.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 174.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 175.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 176.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 176.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 177.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 177.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 178.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 179.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 180.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 180.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 181.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 182.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 183.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 184.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 184.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 185.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 186.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 187.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 188.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 188.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 189.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 189.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 190.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 191.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 192.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 192.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 193.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 194.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 194.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 196.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 197.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 198.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 198.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 200.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 202.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 204.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 206.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 208.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 210.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 212.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 214.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 216.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 217.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 218.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 219.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 220.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 221.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 222.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 223.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 224.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 224.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 226.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 227.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 228.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 230.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 232.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 233.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 234.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 234.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 236.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 237.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 238.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 238.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 240.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 241.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 242.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 243.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 244.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 244.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 246.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 247.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 248.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 248.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 249.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 250.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 250.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 252.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 253.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 254.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 255.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 256.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 257.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 258.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 259.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 260.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 261.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 262.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 263.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 264.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 264.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 266.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 267.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 268.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 268.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 270.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 271.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 272.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 273.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 274.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 275.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 276.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 276.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 278.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 279.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 280.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 282.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 284.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 286.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 288.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 290.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 292.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 294.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 296.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 297.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 298.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 298.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 300.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 301.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 302.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 302.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 304.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 305.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 306.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 307.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 308.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 310.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 312.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 312.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 314.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 315.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 316.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 317.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 318.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 318.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 320.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 320.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 322.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 323.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 324.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 325.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 326.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 326.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 328.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 329.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 330.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 331.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 332.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 333.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 334.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 334.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 336.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 337.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 338.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 338.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 340.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 341.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 342.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 343.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 344.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 344.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 346.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 347.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 348.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 348.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 350.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 351.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 352.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 353.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 354.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 355.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 356.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 357.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 358.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 359.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 360.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 360.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 362.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 363.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 364.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 365.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 366.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 367.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 368.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 368.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 370.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 371.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 372.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 372.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 374.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 375.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 376.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 376.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 377.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 378.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 378.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 380.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 380.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 382.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 383.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 384.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 385.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 386.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 387.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 388.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 389.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 390.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 391.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 392.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 393.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 394.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 394.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 396.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 397.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 398.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 399.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 400.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 400.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 402.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 403.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 404.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 405.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 406.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 407.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 408.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 408.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 410.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 411.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 412.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 414.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 416.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 418.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 420.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 422.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 424.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 426.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 428.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 430.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 432.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 434.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 436.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 438.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 440.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 442.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 444.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 446.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 448.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 449.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 450.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 451.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 452.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 452.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 453.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 454.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 454.5,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 456.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 456.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 457.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 458.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 459.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 460.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 460.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 462.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 463.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 464.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 464.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 466.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 467.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 468.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 468.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 470.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 471.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 472.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 472.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 474.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 475.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 476.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 476.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 478.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 479.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 480.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 480.5,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 482.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 483.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 484.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 486.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 488.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 490.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 492.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 494.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 496.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 498.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 500.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 502.0,
+            "lane": "Air",
+            "type": "Normal"
+        },
+        {
+            "beat": 504.0,
+            "lane": "Ground",
+            "type": "Normal"
+        },
+        {
+            "beat": 506.0,
+            "lane": "Air",
+            "type": "Normal"
+        }
+    ]
+}
