@@ -3,13 +3,18 @@
 [ext_resource type="Script" uid="uid://5h8oryuscjyn" path="res://scripts/GameManager.gd" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://dwmyhnuiv14qr" path="res://Note.tscn" id="2_1bvp3"]
 [ext_resource type="Script" uid="uid://ddon07hbv7yqa" path="res://scripts/RhythmSync.gd" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://dr6yyjmcvobw2" path="res://Obstacle.tscn" id="3_272bh"]
 [ext_resource type="AudioStream" uid="uid://dafm7cwhvt7hj" path="res://audios/鼓動のリズム.mp3" id="4_1bvp3"]
 [ext_resource type="AudioStream" uid="uid://deu3hcveinus5" path="res://hit_sounds/hitsound_000.wav" id="5_lquwl"]
+[ext_resource type="Script" uid="uid://cppmt328a4547" path="res://scripts/Player.gd" id="6_7mycd"]
 
-[node name="Main" type="Node2D" unique_id=136697086 node_paths=PackedStringArray("hit_sound_player")]
+[sub_resource type="CircleShape2D" id="CircleShape2D_qs2g7"]
+
+[node name="Main" type="Node2D" unique_id=136697086 node_paths=PackedStringArray("player", "hit_sound_player")]
 script = ExtResource("1_0xm2m")
 note_scene = ExtResource("2_1bvp3")
-chart_file_path = "res://charts/鼓動のリズム_chart.json"
+obstacle_scene = ExtResource("3_272bh")
+player = NodePath("Player")
 hit_sound_player = NodePath("HitSoundPlayer")
 
 [node name="RhythmSync" type="Node" parent="." unique_id=1303398042 node_paths=PackedStringArray("audio_player")]
@@ -23,3 +28,24 @@ volume_db = -10.0
 [node name="HitSoundPlayer" type="AudioStreamPlayer" parent="." unique_id=17135488]
 stream = ExtResource("5_lquwl")
 volume_db = -10.0
+
+[node name="Player" type="Area2D" parent="." unique_id=696101703]
+script = ExtResource("6_7mycd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=584177501]
+scale = Vector2(3, 3)
+shape = SubResource("CircleShape2D_qs2g7")
+
+[node name="ColorRect" type="ColorRect" parent="Player" unique_id=1115378250]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.21176471, 1, 1, 1)

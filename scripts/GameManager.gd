@@ -9,6 +9,8 @@ extends Node2D
 @export var judgment_line_x: float = 200.0
 @export var note_spawn_x: float = 1280.0
 @export var chart_file_path: String = "res://test_chart.json" ## 외부 JSON 채보 파일 경로
+@export var obstacle_scene: PackedScene ## Obstacle.tscn PackedScene template
+@export var player: Player ## 씬 상의 Player 노드 참조
 
 # Judgment Windows in Beat units (at 120BPM, 0.1 beat is 50ms)
 @export var perfect_window: float = 0.12  ## Max beat difference for Perfect (0.08 -> 0.12)
@@ -31,6 +33,7 @@ var chart_data: Dictionary = {}
 var pending_notes: Array = [] ## Notes loaded from JSON, waiting to be spawned: Array of Dictionaries
 var active_air_notes: Array[Note] = [] ## Currently moving air notes
 var active_ground_notes: Array[Note] = [] ## Currently moving ground notes
+var active_obstacles: Array[Obstacle] = [] ## Currently moving obstacles
 
 func _ready() -> void:
 	# Check configuration
@@ -40,6 +43,12 @@ func _ready() -> void:
 		
 	# Connect to RhythmSync beat update signal
 	rhythm_sync.beat_updated.connect(_on_beat_updated)
+	
+	# Player 피격 시그널 연결
+	if player:
+		player.hit_taken.connect(_on_player_hit_taken)
+	else:
+		push_warning("GameManager: Player 노드가 지정되지 않았습니다.")
 	
 	# 외부 JSON 파일 로드 시도, 실패 시 내장 뼈대 채보 로드
 	var loaded_chart = load_chart_from_file(chart_file_path)
@@ -72,6 +81,7 @@ func init_game(chart: Dictionary) -> void:
 	
 	active_air_notes.clear()
 	active_ground_notes.clear()
+	active_obstacles.clear()
 	
 	rhythm_sync.start_sync()
 
@@ -87,18 +97,28 @@ func _on_beat_updated(current_beat: float) -> void:
 		else:
 			break
 			
-	# 2. Update active notes' positions
-	# Using duplicate arrays to safely modify the array size during iteration
-	for note in active_air_notes.duplicate():
-		if is_instance_valid(note):
-			note.update_position(current_beat)
+	# 2. Update active obstacles' positions & clean up invalid/inactive notes from queue
+	# 큐에서 제거될 공중 롱노트가 있는 경우 플레이어를 즉시 땅에 착지시킵니다.
+	for note in active_air_notes:
+		if not is_instance_valid(note) or not note.active:
+			if is_instance_valid(note) and note.is_hold:
+				if player and player.current_state == Player.State.AIR:
+					player.dive()
+					
+	active_air_notes = active_air_notes.filter(func(note): return is_instance_valid(note) and note.active)
+	active_ground_notes = active_ground_notes.filter(func(note): return is_instance_valid(note) and note.active)
 			
-	for note in active_ground_notes.duplicate():
-		if is_instance_valid(note):
-			note.update_position(current_beat)
+	for obstacle in active_obstacles.duplicate():
+		if is_instance_valid(obstacle):
+			obstacle.update_position(current_beat)
 
 ## Spawns a Note node and adds it to the appropriate lane queue
 func spawn_note(note_data: Dictionary) -> void:
+	# 장애물 데이터인 경우 별도 함수로 위임
+	if note_data.get("type", "") == "Obstacle":
+		spawn_obstacle(note_data)
+		return
+		
 	var note_instance: Note
 	
 	if note_scene:
@@ -123,6 +143,12 @@ func spawn_note(note_data: Dictionary) -> void:
 	note_instance.spawn_x = note_spawn_x
 	note_instance.scroll_speed_beats = spawn_distance_beats
 	
+	# 롱 노트(Hold) 속성 설정 및 콜백 연결
+	if note_instance.note_type == "Hold":
+		note_instance.is_hold = true
+		note_instance.duration_beats = note_data.get("duration", 1.0)
+		note_instance.hold_tick.connect(_on_hold_tick)
+	
 	# Setup visual vertical offset based on Lane
 	# (Assuming Air lane is Y=200, Ground lane is Y=450 on screen)
 	if note_instance.lane == "Air":
@@ -135,6 +161,11 @@ func spawn_note(note_data: Dictionary) -> void:
 	# Listen to the miss signal
 	note_instance.note_missed.connect(_on_note_missed)
 	
+	# 최초 프레임에 화면 좌측(0,0)에 깜빡거리며 스폰되는 현상을 막기 위해 초기 위치 선보정
+	note_instance.position.x = note_spawn_x
+	if rhythm_sync and rhythm_sync.is_active:
+		note_instance.update_position(rhythm_sync.get_current_beat())
+	
 	# Add to main scene container (or GameManager child)
 	add_child(note_instance)
 
@@ -143,10 +174,21 @@ func _input(event: InputEvent) -> void:
 	if not rhythm_sync.is_active:
 		return
 		
-	if event.is_action_pressed("hit_air") or (event is InputEventKey and event.pressed and event.keycode == KEY_F):
+	# --- KEY PRESS ---
+	if event.is_action_pressed("hit_air") or (event is InputEventKey and event.pressed and event.keycode == KEY_F and not event.echo):
+		if player:
+			player.jump() # 공중 상태 전환
 		process_judgment("Air")
-	elif event.is_action_pressed("hit_ground") or (event is InputEventKey and event.pressed and event.keycode == KEY_J):
+	elif event.is_action_pressed("hit_ground") or (event is InputEventKey and event.pressed and event.keycode == KEY_J and not event.echo):
+		if player and player.current_state == Player.State.AIR:
+			player.dive() # 공중 체류 중 J 누르면 즉시 지상 강하
 		process_judgment("Ground")
+		
+	# --- KEY RELEASE ---
+	if event.is_action_released("hit_air") or (event is InputEventKey and not event.pressed and event.keycode == KEY_F):
+		process_hold_release("Air")
+	elif event.is_action_released("hit_ground") or (event is InputEventKey and not event.pressed and event.keycode == KEY_J):
+		process_hold_release("Ground")
 
 ## Evaluates hits against active notes in the specified lane
 func process_judgment(lane_type: String) -> void:
@@ -193,7 +235,11 @@ func process_judgment(lane_type: String) -> void:
 			play_hit_sound()
 		show_judgment_text(judgment, lane_type)
 		
-		target_list.pop_front()
+		# 일반 노트이거나 Miss 판정인 경우에는 즉시 대기 큐에서 제거
+		# Holding 상태로 돌입한 롱 노드는 키를 뗐을 때(process_hold_release) 또는 완주 시 제거하도록 유지
+		if not target_note.is_hold or judgment == "Miss":
+			target_list.pop_front()
+			
 		target_note.trigger_hit(judgment)
 	else:
 		# Too early (outside judgment window entirely), ignore
@@ -323,3 +369,74 @@ func show_judgment_text(judgment: String, lane: String) -> void:
 func play_hit_sound() -> void:
 	if hit_sound_player:
 		hit_sound_player.play()
+
+## 장애물 인스턴스 스폰 및 큐 등록
+func spawn_obstacle(data: Dictionary) -> void:
+	var obstacle_instance: Obstacle
+	if obstacle_scene:
+		obstacle_instance = obstacle_scene.instantiate() as Obstacle
+	else:
+		# Fallback mock obstacle
+		obstacle_instance = Obstacle.new()
+		
+	obstacle_instance.target_beat = data.get("beat", 0.0)
+	obstacle_instance.lane = data.get("lane", "Ground")
+	obstacle_instance.target_x = judgment_line_x
+	obstacle_instance.spawn_x = note_spawn_x
+	obstacle_instance.scroll_speed_beats = spawn_distance_beats
+	
+	if obstacle_instance.lane == "Air":
+		obstacle_instance.position.y = 200.0
+	else:
+		obstacle_instance.position.y = 450.0
+		
+	active_obstacles.append(obstacle_instance)
+	
+	# 최초 프레임에 화면 좌측(0,0)에 깜빡거리며 스폰되는 현상을 막기 위해 초기 위치 선보정
+	obstacle_instance.position.x = note_spawn_x
+	if rhythm_sync and rhythm_sync.is_active:
+		obstacle_instance.update_position(rhythm_sync.get_current_beat())
+		
+	add_child(obstacle_instance)
+	print("GameManager: Obstacle 스폰 (Lane: %s, Beat: %.1f)" % [obstacle_instance.lane, obstacle_instance.target_beat])
+
+## 롱 노트의 꼬리 릴리즈 판정 처리
+func process_hold_release(lane_type: String) -> void:
+	var target_list = active_air_notes if lane_type == "Air" else active_ground_notes
+	if target_list.is_empty():
+		return
+		
+	var active_note = target_list[0]
+	if is_instance_valid(active_note) and active_note.is_hold and active_note.hold_state == "Holding":
+		var current_beat = rhythm_sync.get_current_beat()
+		var judgment = active_note.evaluate_tail_release(current_beat, perfect_window, great_window)
+		
+		# 꼬리 릴리즈 결과 반영
+		if judgment == "Perfect":
+			add_score(50, "Hold End", " (Perfect)") # 꼬리 성공 보너스 점수
+			play_hit_sound()
+		elif judgment == "Great":
+			add_score(25, "Hold End", " (Great)")
+			play_hit_sound()
+		else:
+			combo = 0
+			miss_count += 1
+			print("GameManager: Hold 조기 떼기 Miss!")
+			show_judgment_text("Miss", lane_type)
+			
+		target_list.pop_front()
+
+## Hold 노트를 유지하는 동안 지속적인 Tick 보상 가산
+func _on_hold_tick(note: Note) -> void:
+	score += 1
+	# 공중 롱노트를 정상적으로 누르고 있는 동안에는 플레이어가 땅으로 떨어지지 않고 계속 공중에 체류하도록 타이머 리셋
+	if note.lane == "Air" and player and player.current_state == Player.State.AIR:
+		player.air_timer = player.air_duration
+
+## 플레이어가 장애물에 충돌했을 때 호출되는 콜백
+func _on_player_hit_taken(damage: int) -> void:
+	combo = 0
+	miss_count += 1
+	score = max(0, score - 50) # 피격 시 감점
+	print("GameManager: 플레이어 피격 감지! 콤보 리셋 및 감점 (-50)")
+	show_judgment_text("HIT!", "Air" if player.current_state == Player.State.AIR else "Ground")

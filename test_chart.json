@@ -3,21 +3,13 @@
 	"offset": 0.0,
 	"notes": [
 		{"beat": 4.0, "lane": "Ground", "type": "Normal"},
-		{"beat": 5.0, "lane": "Ground", "type": "Normal"},
 		{"beat": 6.0, "lane": "Air", "type": "Normal"},
-		{"beat": 7.0, "lane": "Air", "type": "Normal"},
-		{"beat": 8.0, "lane": "Ground", "type": "Normal"},
-		{"beat": 8.5, "lane": "Ground", "type": "Normal"},
-		{"beat": 9.0, "lane": "Air", "type": "Normal"},
-		{"beat": 10.0, "lane": "Ground", "type": "Normal"},
-		{"beat": 12.0, "lane": "Air", "type": "Normal"},
-		{"beat": 12.5, "lane": "Air", "type": "Normal"},
-		{"beat": 13.0, "lane": "Ground", "type": "Normal"},
-		{"beat": 14.0, "lane": "Ground", "type": "Normal"},
-		{"beat": 14.5, "lane": "Air", "type": "Normal"},
-		{"beat": 15.0, "lane": "Ground", "type": "Normal"},
-		{"beat": 16.0, "lane": "Air", "type": "Normal"},
-		{"beat": 18.0, "lane": "Ground", "type": "Normal"},
-		{"beat": 20.0, "lane": "Air", "type": "Normal"}
+		{"beat": 8.0, "lane": "Ground", "type": "Hold", "duration": 3.0},
+		{"beat": 12.0, "lane": "Ground", "type": "Obstacle"},
+		{"beat": 14.0, "lane": "Air", "type": "Hold", "duration": 2.0},
+		{"beat": 17.0, "lane": "Air", "type": "Obstacle"},
+		{"beat": 19.0, "lane": "Ground", "type": "Normal"},
+		{"beat": 21.0, "lane": "Ground", "type": "Obstacle"},
+		{"beat": 23.0, "lane": "Air", "type": "Normal"}
 	]
 }
